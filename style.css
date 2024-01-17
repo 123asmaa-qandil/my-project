@@ -1,0 +1,72 @@
+body{
+	background-image:url("bea.jpg");
+	
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+    background-size:cover;
+	margin:0;
+	padding:0;
+	
+}
+nav ul{
+	
+	margin:0;
+	padding:0;
+	background:#444;
+	margin-top:0;
+	
+}
+nav ul li{
+	display:inline-block;
+	font-size:1.1em;
+	padding:14px;
+	
+	
+}
+nav a{
+	text-decoration:none;
+	color:#fff;
+	padding:12px;
+}
+nav a:hover{
+	background:#18BC9C;
+	color:#fff;
+}
+#content{
+	color:#fff;
+	margin-top:200px;
+	width:100%;
+	text-align:center;
+}
+
+#content h1{
+	
+	font-size:160px;
+	color:#fff;
+	font-weight:600px;
+}
+
+#vid{
+	
+	width:100%;
+	height:100%;
+	position:absolute;
+    right:0;
+	bottom:0;
+	z-index:-1;
+}
+@media(min-aspect-ratio:16/9){
+	
+	#vid{
+		width:100%;
+		height:auto;
+	}
+}
+@media(max-aspect-ratio:16/9){
+	
+	#vid{
+		width:auto;
+		height:100%;
+	}
+}
